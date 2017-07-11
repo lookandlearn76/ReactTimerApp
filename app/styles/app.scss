@@ -1,12 +1,2 @@
-$space-large: 2.5rem;
-$title-color: #2199e8;
-
-.page-title {
-  color: $title-color;
-  margin-top: $space-large;
-  margin-bottom: $space-large;
-}
-
-input[type=search] {
-  box-shadow: none;
-}
+@import "base/_variables";
+@import "components/navigation";
